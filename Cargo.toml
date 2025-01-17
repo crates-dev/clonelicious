@@ -1,0 +1,16 @@
+[package]
+name = "clonelicious"
+version = "0.0.1"
+edition = "2021"
+authors = ["ltpp-universe <root@ltpp.vip>"] 
+license = "MIT"
+description = """A Rust macro library that simplifies cloning and closure execution. The `clone!` macro automatically clones variables and immediately executes the closure with the cloned values, streamlining common patterns in Rust programming."""
+keywords = ["standard", "macro", "extensions", "structures", "simplifying"]
+repository = "https://github.com/ltpp-universe/clonelicious"
+categories = ["data-structures", "development-tools"]
+exclude = [
+    "target",
+    "Cargo.lock",
+    "sh",
+    ".github"
+]
