@@ -20,11 +20,10 @@
 /// but don't want to manually clone each value before passing it into the closure.
 #[macro_export]
 macro_rules! clone {
-    ( $( $var:ident ),*; move | $($arg:ident : $typ:ty),* | $body:block ) => {{
+    ( $( $var:ident ),*, $body:block ) => {{
         $(
             let $var = $var.clone();
         )*
-        let closure = move |$($arg: $typ),*| $body;
-        closure($($var.clone()),*);
+        $body
     }};
 }
