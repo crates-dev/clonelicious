@@ -3,6 +3,7 @@
 # clonelicious
 
 [![](https://img.shields.io/crates/v/clonelicious.svg)](https://crates.io/crates/clonelicious)
+[![](https://img.shields.io/crates/d/clonelicious.svg)](https://img.shields.io/crates/d/clonelicious.svg)
 [![](https://docs.rs/clonelicious/badge.svg)](https://docs.rs/clonelicious)
 [![](https://github.com/ltpp-universe/clonelicious/workflows/Rust/badge.svg)](https://github.com/ltpp-universe/clonelicious/actions?query=workflow:Rust)
 [![](https://img.shields.io/crates/l/clonelicious.svg)](./LICENSE)
