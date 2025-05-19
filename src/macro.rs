@@ -20,10 +20,13 @@
 /// but don't want to manually clone each value before passing it into the closure.
 #[macro_export]
 macro_rules! clone {
-    ( $( $var:ident ),*, $body:block ) => {{
-        $(
-            let $var = $var.clone();
-        )*
-        $body
+    ( $( $var:ident ),* => { $($body:tt)* } ) => {{
+        $( let $var = $var.clone(); )*
+        { $($body)* }
+    }};
+
+    ( $( $var:ident ),* => async move { $($body:tt)* } ) => {{
+        $( let $var = $var.clone(); )*
+        async move { $($body)* }
     }};
 }
