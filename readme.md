@@ -5,7 +5,7 @@
 [![](https://img.shields.io/crates/v/clonelicious.svg)](https://crates.io/crates/clonelicious)
 [![](https://img.shields.io/crates/d/clonelicious.svg)](https://img.shields.io/crates/d/clonelicious.svg)
 [![](https://docs.rs/clonelicious/badge.svg)](https://docs.rs/clonelicious)
-[![](https://github.com/ltpp-universe/clonelicious/workflows/Rust/badge.svg)](https://github.com/ltpp-universe/clonelicious/actions?query=workflow:Rust)
+[![](https://github.com/eastspire/clonelicious/workflows/Rust/badge.svg)](https://github.com/eastspire/clonelicious/actions?query=workflow:Rust)
 [![](https://img.shields.io/crates/l/clonelicious.svg)](./LICENSE)
 
 </center>
@@ -57,4 +57,4 @@ Contributions are welcome! Please open an issue or submit a pull request.
 
 ## Contact
 
-For any inquiries, please reach out to the author at [ltpp-universe <root@ltpp.vip>](mailto:root@ltpp.vip).
+For any inquiries, please reach out to the author at [root@ltpp.vip](mailto:root@ltpp.vip).
