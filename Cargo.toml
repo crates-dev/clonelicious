@@ -1,13 +1,13 @@
 [package]
 name = "clonelicious"
-version = "2.2.2"
+version = "2.2.3"
 readme = "README.md"
 edition = "2024"
 authors = ["root@ltpp.vip"]
 license = "MIT"
 description = """A Rust macro library that simplifies cloning and closure execution. The `clone!` macro automatically clones variables and immediately executes the closure with the cloned values, streamlining common patterns in Rust programming."""
 keywords = ["standard", "macro", "extensions", "structures", "simplifying"]
-repository = "https://github.com/eastspire/clonelicious"
+repository = "https://github.com/crates-dev/clonelicious"
 categories = ["data-structures", "development-tools"]
 exclude = [
     "target",
