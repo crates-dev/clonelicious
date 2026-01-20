@@ -1,8 +1,7 @@
-#[cfg(test)]
+use crate::*;
+
 #[tokio::test]
 async fn test_clone() {
-    use crate::*;
-
     let s1: String = String::from("Hello");
     let s2: String = String::from("World");
     let res: String = clone!(s1, s2 => {
