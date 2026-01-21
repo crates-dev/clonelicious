@@ -4,7 +4,6 @@
 //! The `clone!` macro automatically clones variables and immediately executes
 //! the closure with the cloned values, streamlining common patterns in Rust programming.
 
-pub(crate) mod r#macro;
-
+mod r#macro;
 #[cfg(test)]
 mod test;
