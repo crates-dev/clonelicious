@@ -1,6 +1,6 @@
 [package]
 name = "clonelicious"
-version = "2.2.14"
+version = "2.2.15"
 readme = "README.md"
 edition = "2024"
 authors = ["root@ltpp.vip"]
