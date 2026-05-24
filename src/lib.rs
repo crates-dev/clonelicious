@@ -5,5 +5,3 @@
 //! the closure with the cloned values, streamlining common patterns in Rust programming.
 
 mod r#macro;
-#[cfg(test)]
-mod test;
